@@ -1,0 +1,74 @@
+body{
+    background-color: antiquewhite;
+}
+
+div{
+    padding: 2px;
+}
+
+h1,h2{
+    margin: 20px auto;
+    background-color: aliceblue;
+    width: 70%;
+    text-align: center;
+}
+
+#fps {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.main{
+    border: 2px solid black;
+    display: flex;
+    height: 700px;
+    width: 90%;
+    margin: 10px auto;
+    padding-top: 0;
+}
+
+.main div{
+    height: 100%;
+}
+
+form{
+    width: 100%;
+}
+
+label{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    margin: 2px auto;
+    width: 77px;
+}
+
+#error{
+    color: red;
+}
+
+#menu{
+    border-right: 2px solid black;
+}
+
+#instructions{
+    border-left: 2px solid black;
+}
+
+#scoreboard{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -2px;
+    height: 30px;
+    border-bottom: 2px solid black;
+}
+
+#game-holder{
+    display:flex;
+    flex-flow: column nowrap;
+}

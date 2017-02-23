@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 2</title>
+    <link href="index.css" rel="stylesheet"/>
+    <script type="text/javascript" src="js/graphics.js"></script>
+    <script type="text/javascript" src="js/unionFind.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</head>
+<body>
+<h1>Assignment 2: Maze Generation</h1>
+<span id="fps"></span>
+<div class="main">
+    <div id="menu">
+        <label>Select a Maze Size:
+            <select id="maze-size-selection">
+                <option value="5">5 X 5</option>
+                <option value="10">10 X 10</option>
+                <option value="15">15 X 15</option>
+                <option value="20">20 X 20</option>
+            </select>
+        </label>
+        <table id="score-history">
+            <tr>
+                <th>Name</th>
+                <th>Score</th>
+                <th>Time</th>
+            </tr>
+        </table>
+    </div>
+    <div id="game-holder">
+        <div id="scoreboard">0:00<span id="current-time"></span><span id="current-score">Score: 0</span></div>
+        <canvas id="maze-canvas" width="600" height="600"></canvas>
+    </div>
+    <div id="instructions">
+        <h3>How To play</h3>
+        <p>Select a maze size from the drop down menu</p>
+        <p>Control your character with the arrow keys, WASD, or IJKL</p>
+        <p>p - Show <span class="hotkey">P</span>ath</p>
+        <p>h - <span class="hotkey">H</span>int</p>
+        <p>b - Show <span class="hotkey">B</span>readcrumbs</p>
+        <p>y - Toggle Current Score</p>
+    </div>
+</div>
+<h2>Created for CS 5410</h2>
+</body>
+</html>
